@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "node_modules/expo-router/entry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
+    "start": "next start",
+    "android": "next android",
+    "ios": "next ios",
+    "web": "next web",
     "dev": "next dev",
     "build": "next build"
   },
@@ -20,6 +20,7 @@
     "expo-secure-store": "^14.2.3",
     "expo-splash-screen": "^0.30.7",
     "expo-status-bar": "~2.2.3",
+    "next": "^15.3.1",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-native": "0.79.1",
@@ -37,6 +38,5 @@
     "@types/react-native": "^0.73.0",
     "typescript": "~5.8.3"
   },
-     
   "private": true
 }
