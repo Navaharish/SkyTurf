@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "main": "node_modules/expo-router/entry.js",
   "scripts": {
-    "start": "next start",
-    "android": "next android",
-    "ios": "next ios",
-    "web": "next web",
-    "dev": "next dev",
-    "build": "next build"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "dev": "expo start --web",
+    "build": "expo export:web",
+    "vercel-build": "expo export:web"
   },
   "dependencies": {
     "@expo/metro-runtime": "~5.0.4",
@@ -20,7 +21,7 @@
     "expo-secure-store": "^14.2.3",
     "expo-splash-screen": "^0.30.7",
     "expo-status-bar": "~2.2.3",
-    "next": "^15.3.1",
+    "next": "latest",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-native": "0.79.1",
