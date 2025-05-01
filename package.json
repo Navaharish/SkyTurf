@@ -6,7 +6,9 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "dev": "next dev",
+    "build": "next build"
   },
   "dependencies": {
     "@expo/metro-runtime": "~5.0.4",
@@ -35,5 +37,6 @@
     "@types/react-native": "^0.73.0",
     "typescript": "~5.8.3"
   },
+     
   "private": true
 }
