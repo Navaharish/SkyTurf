@@ -8,8 +8,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "dev": "expo start --web",
-    "build": "expo export:web",
-    "vercel-build": "expo export:web"
+    "build": "expo export",
+    "vercel-build": "expo export"
   },
   "dependencies": {
     "@expo/metro-runtime": "~5.0.4",
@@ -39,5 +39,13 @@
     "@types/react-native": "^0.73.0",
     "typescript": "~5.8.3"
   },
-  "private": true
+  "private": true,
+  "expo": {
+    "name": "SkyTurf",
+    "slug": "skyturf",
+    "version": "1.0.0",
+    "web": {
+      "bundler": "metro"
+    }
+  }
 }
